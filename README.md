@@ -2,6 +2,11 @@
 
 
 # CRAQ
+
+### Fork note
+
+in this fork, the `craq` script has been changed to accept CSI index. 
+
 ### Pinpoint assembly errors for genomic assessing and correcting
 ![image](https://github.com/JiaoLaboratory/CRAQ/blob/main/Doc/Fig.png)
 
