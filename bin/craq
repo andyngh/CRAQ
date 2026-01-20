@@ -87,7 +87,7 @@ if (  -e $long_input  ){
 		my @string=(split/,/,$long_input);
 			for my $query(@string){if ( ! -e $query ){die "\nError: -sms SMS Reads(.fq) file  $query doesn't exist, please check !\n\n"}}
 		                            	}
-		if ( $long_input =~ /bam$/i){ my $long_input_index=$long_input.".bai";
+		if ( $long_input =~ /bam$/i){ my $long_input_index=$long_input.".csi";
 			if(! -e $long_input_index){print $usage; die "\nError: $long_input_index is not found, cannot read index for $long_input,please check !\n\n";} }
 		} else {die "\nError: -sms SMS Alignment(.bam) or Reads(.fq) suffix file are required, please check !\n\n";}
 }
